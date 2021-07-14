@@ -15,10 +15,15 @@ ol, ul {
 	list-style: none;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background: #fff;
     font-family: "Rubik";
     font-weight: 400;
+    
 }
 button:active, button:focus {
     outline: none;
