@@ -309,7 +309,7 @@ h3, h2, h4, h1{
   width: 540px;
   border-radius: 6px;
   
-  background: url('/Portfolio pages/MonsterPlay/images/demo-main.jpg');
+  background: url('/Portfolio-pages/MonsterPlay/images/demo-main.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   transition: background-position .4s ease-out; 
@@ -321,7 +321,7 @@ h3, h2, h4, h1{
 }
 
 .demos:nth-child(2) .demo{
-  background: url('/Portfolio pages/MonsterPlay/images/demo-shooter.jpg');
+  background: url('/Portfolio-pages/MonsterPlay/images/demo-shooter.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   transition: background-position .4s ease-out;
@@ -332,7 +332,7 @@ h3, h2, h4, h1{
 }
 
 .demos:nth-child(3) .demo{
-  background: url('/Portfolio pages/MonsterPlay/images/demo-studio.jpg');
+  background: url('/Portfolio-pages/MonsterPlay/images/demo-studio.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   transition: background-position .4s ease-out;
@@ -343,7 +343,7 @@ h3, h2, h4, h1{
 }
 
 .demos:nth-child(4) .demo{
-  background: url('/Portfolio pages/MonsterPlay/images/demo-gamer.jpg');
+  background: url('/Portfolio-pages/MonsterPlay/images/demo-gamer.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   transition: background-position .4s ease-out;
