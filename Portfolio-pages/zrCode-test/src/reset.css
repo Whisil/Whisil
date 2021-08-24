@@ -1,7 +1,7 @@
 @font-face {
 	font-family: 'HelveticaNeueCyr';
 	src: local('HelveticaNeueCyr-Medium'),
-		url('vendors/Font/HelveticaNeueCyr-Medium.ttf') format('truetype');
+		url('Portfolio-pages/zrCode-test/vendors/Font/HelveticaNeueCyr-Medium.ttf') format('truetype');
 	font-weight: 500;
 	font-style: normal;
 }
@@ -9,7 +9,7 @@
 @font-face {
 	font-family: 'HelveticaNeueCyr';
 	src: local('HelveticaNeueCyr-Heavy'),
-		url('vendors/Font/HelveticaNeueCyr-Heavy.ttf') format('truetype');
+		url('Portfolio-pages/zrCode-test/vendors/Font/HelveticaNeueCyr-Heavy.ttf') format('truetype');
 	font-weight: 900;
 	font-style: normal;
 }
@@ -17,7 +17,7 @@
 @font-face {
 	font-family: 'HelveticaNeueCyr';
 	src: local('HelveticaNeueCyr-Black'),
-		url('vendors/Font/HelveticaNeueCyr-Black.ttf') format('truetype');
+		url('Portfolio-pages/zrCode-test/vendors/Font/HelveticaNeueCyr-Black.ttf') format('truetype');
 	font-weight: 900;
 	font-style: normal;
 }
@@ -26,7 +26,7 @@
 @font-face {
 	font-family: 'HelveticaNeueCyr';
 	src: local('HelveticaNeueCyr-Bold'),
-		url('vendors/Font/HelveticaNeueCyr-Bold.ttf') format('truetype');
+		url('Portfolio-pages/zrCode-test/vendors/Font/HelveticaNeueCyr-Bold.ttf') format('truetype');
 	font-weight: bold;
 	font-style: normal;
 }
@@ -34,7 +34,7 @@
 @font-face {
 	font-family: 'HelveticaNeueCyr';
 	src: local('HelveticaNeueCyr-Light'),
-		url('vendors/Font/HelveticaNeueCyr-Light.ttf') format('truetype');
+		url('Portfolio-pages/zrCode-test/vendors/Font/HelveticaNeueCyr-Light.ttf') format('truetype');
 	font-weight: 300;
 	font-style: normal;
 }
