@@ -1,7 +1,7 @@
 header {
   padding-top: 18px;
   padding-bottom: 120px;
-  background: url("/vendors/images/header-bg.png");
+  background: url("Portfolio-pages/zrCode-test/vendors/images/header-bg.png");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
           background-size: cover;
@@ -99,17 +99,23 @@ header .header-bottom__info .learn-btn {
   -webkit-border-radius: 8px;
           border-radius: 8px;
   margin-right: 12px;
-  -webkit-transition: background-color .2s ease-in-out, color .2s ease-in-out;
-  -o-transition: background-color .2s ease-in-out, color .2s ease-in-out;
-  transition: background-color .2s ease-in-out, color .2s ease-in-out;
+  -webkit-transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
+  -o-transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
+  transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
 }
 
 header .header-bottom__info .learn-btn:hover {
   background-color: transparent;
   color: #fff;
-  -webkit-transition: background-color .2s ease-in-out, color .2s ease-in-out;
-  -o-transition: background-color .2s ease-in-out, color .2s ease-in-out;
-  transition: background-color .2s ease-in-out, color .2s ease-in-out;
+  -webkit-transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
+  -o-transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
+  transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
 }
 
 header .header-bottom__info .go-to-btn {
@@ -124,17 +130,23 @@ header .header-bottom__info .go-to-btn {
   -webkit-border-radius: 8px;
           border-radius: 8px;
   margin-right: 12px;
-  -webkit-transition: background-color .2s ease-in-out, color .2s ease-in-out;
-  -o-transition: background-color .2s ease-in-out, color .2s ease-in-out;
-  transition: background-color .2s ease-in-out, color .2s ease-in-out;
+  -webkit-transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
+  -o-transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
+  transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
 }
 
 header .header-bottom__info .go-to-btn:hover {
   background-color: #fff;
   color: #1e3c72;
-  -webkit-transition: background-color .2s ease-in-out, color .2s ease-in-out;
-  -o-transition: background-color .2s ease-in-out, color .2s ease-in-out;
-  transition: background-color .2s ease-in-out, color .2s ease-in-out;
+  -webkit-transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
+  -o-transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
+  transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
 }
 
 header .header-bottom .splide {
@@ -166,11 +178,17 @@ header .header-bottom .splide .splide__slide {
       -ms-transform: scale(80%);
           transform: scale(80%);
   opacity: 0.5;
-  -webkit-transition: opacity .2s ease-in-out, -webkit-transform .2s ease-in-out;
-  transition: opacity .2s ease-in-out, -webkit-transform .2s ease-in-out;
-  -o-transition: opacity .2s ease-in-out, transform .2s ease-in-out;
-  transition: opacity .2s ease-in-out, transform .2s ease-in-out;
-  transition: opacity .2s ease-in-out, transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out,
+ -webkit-transform .2s ease-in-out;
+  transition: opacity .2s ease-in-out,
+ -webkit-transform .2s ease-in-out;
+  -o-transition: opacity .2s ease-in-out,
+ transform .2s ease-in-out;
+  transition: opacity .2s ease-in-out,
+ transform .2s ease-in-out;
+  transition: opacity .2s ease-in-out,
+ transform .2s ease-in-out,
+ -webkit-transform .2s ease-in-out;
   overflow: hidden !important;
 }
 
@@ -203,11 +221,17 @@ header .header-bottom .splide .is-active {
       -ms-transform: scale(100%);
           transform: scale(100%);
   opacity: 1;
-  -webkit-transition: opacity .2s ease-in-out, -webkit-transform .2s ease-in-out;
-  transition: opacity .2s ease-in-out, -webkit-transform .2s ease-in-out;
-  -o-transition: opacity .2s ease-in-out, transform .2s ease-in-out;
-  transition: opacity .2s ease-in-out, transform .2s ease-in-out;
-  transition: opacity .2s ease-in-out, transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out,
+ -webkit-transform .2s ease-in-out;
+  transition: opacity .2s ease-in-out,
+ -webkit-transform .2s ease-in-out;
+  -o-transition: opacity .2s ease-in-out,
+ transform .2s ease-in-out;
+  transition: opacity .2s ease-in-out,
+ transform .2s ease-in-out;
+  transition: opacity .2s ease-in-out,
+ transform .2s ease-in-out,
+ -webkit-transform .2s ease-in-out;
 }
 
 header .header-bottom .splide .splide__pagination {
@@ -442,7 +466,7 @@ header .header-bottom .splide .splide__pagination li .is-active::after {
 }
 
 .sold-section {
-  background: url("/vendors/images/sold-bg.png");
+  background: url("Portfolio-pages/zrCode-test/vendors/images/sold-bg.png");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
           background-size: cover;
@@ -586,7 +610,7 @@ header .header-bottom .splide .splide__pagination li .is-active::after {
 
 .coin-selection .owl-carousel .owl-nav button:first-child::before {
   content: '';
-  background: url("/vendors/images/coin-slider-control-prev.png");
+  background: url("Portfolio-pages/zrCode-test/vendors/images/coin-slider-control-prev.png");
   height: 29px;
   background-repeat: no-repeat;
   display: block;
@@ -595,7 +619,7 @@ header .header-bottom .splide .splide__pagination li .is-active::after {
 
 .coin-selection .owl-carousel .owl-nav button:nth-child(2)::before {
   content: '';
-  background: url("/vendors/images/coin-slider-control-next.png");
+  background: url("Portfolio-pages/zrCode-test/vendors/images/coin-slider-control-next.png");
   height: 29px;
   background-repeat: no-repeat;
   display: block;
@@ -674,7 +698,7 @@ header .header-bottom .splide .splide__pagination li .is-active::after {
   position: absolute;
   display: block;
   content: '';
-  background: url("/vendors/images/bitcoin.png");
+  background: url("Portfolio-pages/zrCode-test/vendors/images/bitcoin.png");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
           background-size: cover;
@@ -688,7 +712,7 @@ header .header-bottom .splide .splide__pagination li .is-active::after {
   position: absolute;
   display: block;
   content: '';
-  background: url("/vendors/images/l-coin.png");
+  background: url("Portfolio-pages/zrCode-test/vendors/images/l-coin.png");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
           background-size: cover;
@@ -775,7 +799,7 @@ header .header-bottom .splide .splide__pagination li .is-active::after {
   position: absolute;
   display: block;
   content: '';
-  background: url("/vendors/images/l-coin.png");
+  background: url("Portfolio-pages/zrCode-test/vendors/images/l-coin.png");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
           background-size: cover;
@@ -787,7 +811,7 @@ header .header-bottom .splide .splide__pagination li .is-active::after {
 }
 
 .character {
-  background: url("/vendors/images/character-bg-one.png");
+  background: url("Portfolio-pages/zrCode-test/vendors/images/character-bg-one.png");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
           background-size: cover;
@@ -974,7 +998,7 @@ header .header-bottom .splide .splide__pagination li .is-active::after {
 
 .cost-selection .owl-carousel .owl-nav button:first-child::before {
   content: '';
-  background: url("/vendors/images/coin-slider-control-prev.png");
+  background: url("Portfolio-pages/zrCode-test/vendors/images/coin-slider-control-prev.png");
   height: 29px;
   background-repeat: no-repeat;
   display: block;
@@ -983,7 +1007,7 @@ header .header-bottom .splide .splide__pagination li .is-active::after {
 
 .cost-selection .owl-carousel .owl-nav button:nth-child(2)::before {
   content: '';
-  background: url("/vendors/images/coin-slider-control-next.png");
+  background: url("Portfolio-pages/zrCode-test/vendors/images/coin-slider-control-next.png");
   height: 29px;
   background-repeat: no-repeat;
   display: block;
@@ -1062,7 +1086,7 @@ header .header-bottom .splide .splide__pagination li .is-active::after {
   position: absolute;
   display: block;
   content: '';
-  background: url("/vendors/images/bitcoin.png");
+  background: url("Portfolio-pages/zrCode-test/vendors/images/bitcoin.png");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
           background-size: cover;
@@ -1076,7 +1100,7 @@ header .header-bottom .splide .splide__pagination li .is-active::after {
   position: absolute;
   display: block;
   content: '';
-  background: url("/vendors/images/l-coin.png");
+  background: url("Portfolio-pages/zrCode-test/vendors/images/l-coin.png");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
           background-size: cover;
@@ -1160,7 +1184,7 @@ header .header-bottom .splide .splide__pagination li .is-active::after {
 }
 
 .cost-selection .owl-carousel__item::after {
-  background: url("/vendors/images/cost.png") !important;
+  background: url("Portfolio-pages/zrCode-test/vendors/images/cost.png") !important;
   background-repeat: no-repeat !important;
   margin: 0 auto !important;
   right: 0 !important;
@@ -1512,7 +1536,7 @@ header .header-bottom .splide .splide__pagination li .is-active::after {
 }
 
 .universe-section {
-  background: url("/vendors/images/universe-bg.png");
+  background: url("Portfolio-pages/zrCode-test/vendors/images/universe-bg.png");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
           background-size: cover;
@@ -1833,7 +1857,7 @@ header .header-bottom .splide .splide__pagination li .is-active::after {
 }
 
 footer {
-  background: url("/vendors/images/footer-bg.png");
+  background: url("Portfolio-pages/zrCode-test/vendors/images/footer-bg.png");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
           background-size: cover;
