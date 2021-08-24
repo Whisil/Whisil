@@ -1,7 +1,7 @@
 header {
   padding-top: 18px;
   padding-bottom: 120px;
-  background: url("Portfolio-pages/zrCode-test/vendors/images/header-bg.png");
+  background: url("whisil.github.io/Portfolio-pages/zrCode-test/vendors/images/header-bg.png");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
           background-size: cover;
@@ -466,7 +466,7 @@ header .header-bottom .splide .splide__pagination li .is-active::after {
 }
 
 .sold-section {
-  background: url("Portfolio-pages/zrCode-test/vendors/images/sold-bg.png");
+  background: url("whisil.github.io/Portfolio-pages/zrCode-test/vendors/images/sold-bg.png");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
           background-size: cover;
@@ -610,7 +610,7 @@ header .header-bottom .splide .splide__pagination li .is-active::after {
 
 .coin-selection .owl-carousel .owl-nav button:first-child::before {
   content: '';
-  background: url("Portfolio-pages/zrCode-test/vendors/images/coin-slider-control-prev.png");
+  background: url("whisil.github.io/Portfolio-pages/zrCode-test/vendors/images/coin-slider-control-prev.png");
   height: 29px;
   background-repeat: no-repeat;
   display: block;
@@ -619,7 +619,7 @@ header .header-bottom .splide .splide__pagination li .is-active::after {
 
 .coin-selection .owl-carousel .owl-nav button:nth-child(2)::before {
   content: '';
-  background: url("Portfolio-pages/zrCode-test/vendors/images/coin-slider-control-next.png");
+  background: url("whisil.github.io/Portfolio-pages/zrCode-test/vendors/images/coin-slider-control-next.png");
   height: 29px;
   background-repeat: no-repeat;
   display: block;
@@ -698,7 +698,7 @@ header .header-bottom .splide .splide__pagination li .is-active::after {
   position: absolute;
   display: block;
   content: '';
-  background: url("Portfolio-pages/zrCode-test/vendors/images/bitcoin.png");
+  background: url("whisil.github.io/Portfolio-pages/zrCode-test/vendors/images/bitcoin.png");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
           background-size: cover;
@@ -712,7 +712,7 @@ header .header-bottom .splide .splide__pagination li .is-active::after {
   position: absolute;
   display: block;
   content: '';
-  background: url("Portfolio-pages/zrCode-test/vendors/images/l-coin.png");
+  background: url("whisil.github.io/Portfolio-pages/zrCode-test/vendors/images/l-coin.png");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
           background-size: cover;
@@ -799,7 +799,7 @@ header .header-bottom .splide .splide__pagination li .is-active::after {
   position: absolute;
   display: block;
   content: '';
-  background: url("Portfolio-pages/zrCode-test/vendors/images/l-coin.png");
+  background: url("whisil.github.io/Portfolio-pages/zrCode-test/vendors/images/l-coin.png");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
           background-size: cover;
@@ -811,7 +811,7 @@ header .header-bottom .splide .splide__pagination li .is-active::after {
 }
 
 .character {
-  background: url("Portfolio-pages/zrCode-test/vendors/images/character-bg-one.png");
+  background: url("whisil.github.io/Portfolio-pages/zrCode-test/vendors/images/character-bg-one.png");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
           background-size: cover;
@@ -998,7 +998,7 @@ header .header-bottom .splide .splide__pagination li .is-active::after {
 
 .cost-selection .owl-carousel .owl-nav button:first-child::before {
   content: '';
-  background: url("Portfolio-pages/zrCode-test/vendors/images/coin-slider-control-prev.png");
+  background: url("whisil.github.io/Portfolio-pages/zrCode-test/vendors/images/coin-slider-control-prev.png");
   height: 29px;
   background-repeat: no-repeat;
   display: block;
@@ -1007,7 +1007,7 @@ header .header-bottom .splide .splide__pagination li .is-active::after {
 
 .cost-selection .owl-carousel .owl-nav button:nth-child(2)::before {
   content: '';
-  background: url("Portfolio-pages/zrCode-test/vendors/images/coin-slider-control-next.png");
+  background: url("whisil.github.io/Portfolio-pages/zrCode-test/vendors/images/coin-slider-control-next.png");
   height: 29px;
   background-repeat: no-repeat;
   display: block;
@@ -1086,7 +1086,7 @@ header .header-bottom .splide .splide__pagination li .is-active::after {
   position: absolute;
   display: block;
   content: '';
-  background: url("Portfolio-pages/zrCode-test/vendors/images/bitcoin.png");
+  background: url("whisil.github.io/Portfolio-pages/zrCode-test/vendors/images/bitcoin.png");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
           background-size: cover;
@@ -1100,7 +1100,7 @@ header .header-bottom .splide .splide__pagination li .is-active::after {
   position: absolute;
   display: block;
   content: '';
-  background: url("Portfolio-pages/zrCode-test/vendors/images/l-coin.png");
+  background: url("whisil.github.io/Portfolio-pages/zrCode-test/vendors/images/l-coin.png");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
           background-size: cover;
@@ -1184,7 +1184,7 @@ header .header-bottom .splide .splide__pagination li .is-active::after {
 }
 
 .cost-selection .owl-carousel__item::after {
-  background: url("Portfolio-pages/zrCode-test/vendors/images/cost.png") !important;
+  background: url("whisil.github.io/Portfolio-pages/zrCode-test/vendors/images/cost.png") !important;
   background-repeat: no-repeat !important;
   margin: 0 auto !important;
   right: 0 !important;
@@ -1536,7 +1536,7 @@ header .header-bottom .splide .splide__pagination li .is-active::after {
 }
 
 .universe-section {
-  background: url("Portfolio-pages/zrCode-test/vendors/images/universe-bg.png");
+  background: url("whisil.github.io/Portfolio-pages/zrCode-test/vendors/images/universe-bg.png");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
           background-size: cover;
@@ -1857,7 +1857,7 @@ header .header-bottom .splide .splide__pagination li .is-active::after {
 }
 
 footer {
-  background: url("Portfolio-pages/zrCode-test/vendors/images/footer-bg.png");
+  background: url("whisil.github.io/Portfolio-pages/zrCode-test/vendors/images/footer-bg.png");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
           background-size: cover;
