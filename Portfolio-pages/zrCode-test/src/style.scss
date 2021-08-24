@@ -70,7 +70,7 @@ $cDark: rgb(30, 60 ,114);
 
             button:first-child::before{
                 content:'';
-                background: url('/vendors/images/coin-slider-control-prev.png');
+                background: url('Portfolio-pages/zrCode-test/vendors/images/coin-slider-control-prev.png');
                 height: 29px;
                 background-repeat: no-repeat;
                 display: block;
@@ -78,7 +78,7 @@ $cDark: rgb(30, 60 ,114);
             }
             button:nth-child(2)::before{
                 content:'';
-                background: url('/vendors/images/coin-slider-control-next.png');
+                background: url('Portfolio-pages/zrCode-test/vendors/images/coin-slider-control-next.png');
                 height: 29px;
                 background-repeat: no-repeat;
                 display: block;
@@ -130,7 +130,7 @@ $cDark: rgb(30, 60 ,114);
                 position: absolute;
                 display: block;
                 content:'';
-                background: url('/vendors/images/bitcoin.png');
+                background: url('Portfolio-pages/zrCode-test/vendors/images/bitcoin.png');
                 background-repeat: no-repeat;
                 background-size: cover;
                 width: 29px;
@@ -143,7 +143,7 @@ $cDark: rgb(30, 60 ,114);
                     position: absolute;
                     display: block;
                     content:'';
-                    background: url('/vendors/images/l-coin.png');
+                    background: url('Portfolio-pages/zrCode-test/vendors/images/l-coin.png');
                     background-repeat: no-repeat;
                     background-size: cover;
                     width: 29px;
@@ -233,7 +233,7 @@ $cDark: rgb(30, 60 ,114);
 
 
 @mixin character{
-    background: url('/vendors/images/character-bg-one.png');
+    background: url('Portfolio-pages/zrCode-test/vendors/images/character-bg-one.png');
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 20px;
@@ -319,7 +319,7 @@ $cDark: rgb(30, 60 ,114);
 header{
     padding-top: 18px;
     padding-bottom: 120px;
-    background: url('/vendors/images/header-bg.png');
+    background: url('Portfolio-pages/zrCode-test/vendors/images/header-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     .menu-container{
@@ -719,7 +719,7 @@ header{
 // SOLD
 
 .sold-section{
-    background: url('/vendors/images/sold-bg.png');
+    background: url('Portfolio-pages/zrCode-test/vendors/images/sold-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 65px;
@@ -801,7 +801,7 @@ header{
             position: absolute;
             display: block;
             content:'';
-            background: url('/vendors/images/l-coin.png');
+            background: url('Portfolio-pages/zrCode-test/vendors/images/l-coin.png');
             background-repeat: no-repeat;
             background-size: cover;
             width: 29px;
@@ -884,7 +884,7 @@ header{
 
     
         &::after{
-            background: url('/vendors/images/cost.png') !important;
+            background: url('Portfolio-pages/zrCode-test/vendors/images/cost.png') !important;
             background-repeat: no-repeat !important;
             margin: 0 auto !important;
             right: 0 !important;
@@ -1272,7 +1272,7 @@ header{
 // UNIVERSE
 
 .universe-section{
-    background: url('/vendors/images/universe-bg.png');
+    background: url('Portfolio-pages/zrCode-test/vendors/images/universe-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 10%;
@@ -1571,7 +1571,7 @@ header{
 
 // FOOTER
 footer{
-    background: url('/vendors/images/footer-bg.png');
+    background: url('Portfolio-pages/zrCode-test/vendors/images/footer-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 67px;
