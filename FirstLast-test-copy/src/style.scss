@@ -1,3 +1,8 @@
+.body-wrapper{
+    position: relative;
+    overflow: hidden;
+}
+
 
 .bg-text{
     overflow: hidden;
@@ -149,7 +154,41 @@
             transform: rotate(-222.5deg) translateY(-375px);
 
         }
+
+        @media screen and (max-height: 768px){
+            p:first-child{
+                transform: rotate(-36.5deg) translateY(58vh);
+            }
+            p:nth-child(2){
+                transform: rotate(-217.5deg) translateY(-290px);
+    
+            }
+
+            @keyframes textUpper {
+                100%{
+                    right: -5%;
+                    bottom: 38%;
+                }
+                0%{
+                    right: -20%;
+                    bottom: 52.5%;
+                }
+            }
+
+            @keyframes textBottom{
+                100%{
+                    top: 44%;
+                    right: -5%;
+                }
+                0%{
+                    right: -50%;
+                    top: 0%;
+                }
+            }
+        }
     }
+
+
 
     @media screen and (max-width: 768px){
         @-webkit-keyframes textBottom{
@@ -196,41 +235,125 @@
         }
 
         p:first-child{
-            transform: rotate(-51.5deg) translateY(70vh);
+            transform: rotate(-51.5deg) translateY(76vh);
         }
         p:nth-child(2){
             transform: rotate(-231.5deg) translateY(-560px);
 
         }
+
+
+
+        @media screen and (max-height: 768px){
+            p:first-child{
+                transform: rotate(-46.5deg) translateY(80vh);
+            }
+            p:nth-child(2){
+                transform: rotate(-225.5deg) translateY(-500px);
+    
+            }
+
+            @keyframes textBottom{
+                100%{
+                    top: 44%;
+                    right: -5%;
+                }
+                0%{
+                    right: -50%;
+                    top: 0%;
+                }
+            }
+
+            @keyframes textUpper {
+                100%{
+                    right: -5%;
+                    bottom: 46%;
+                }
+                0%{
+                    right: -20%;
+                    bottom: 60.5%;
+                }
+            }
+        }
     }
+
+
+
+
+
 
     @media screen and (max-width: 596px){
 
         p:first-child{
-            transform: rotate(-58.7deg) translateY(83vh);
+            transform: rotate(-56.7deg) translateY(89vh);
         }
         p:nth-child(2){
-            transform: rotate(-238.5deg) translateY(-700px);
+            transform: rotate(-236.5deg) translateY(-680px);
 
         }
+
+
+        @media screen and (max-height: 768px){
+            p:first-child{
+                transform: rotate(-52.5deg) translateY(98vh);
+            }
+            p:nth-child(2){
+                transform: rotate(-232.5deg) translateY(-640px);
+    
+            }
+        }
     }
+
+
+
+
+
 
     @media screen and (max-width: 450px){
         p:first-child{
-            transform: rotate(-66deg) translateY(97vh);
+            transform: rotate(-63deg) translateY(102vh);
         }
         p:nth-child(2){
-            transform: rotate(-246deg) translateY(-800px);
+            transform: rotate(-243deg) translateY(-800px);
 
         }
+    
+        
+        @media screen and (max-height: 768px){
+            p:first-child{
+                transform: rotate(-60.5deg) translateY(114vh);
+            }
+            p:nth-child(2){
+                transform: rotate(-239.5deg) translateY(-770px);
+    
+            }
+        }
+        
     }
+
+
+
+
+
     @media screen and (max-width: 375px){
         p:first-child{
-            transform: rotate(-69deg) translateY(102vh);
+            transform: rotate(-67deg) translateY(110vh);
         }
         p:nth-child(2){
-            transform: rotate(-249deg) translateY(-870px);
+            transform: rotate(-247deg) translateY(-870px);
 
+        }
+
+
+
+        @media screen and (max-height: 768px){
+            p:first-child{
+                transform: rotate(-65.5deg) translateY(124vh);
+            }
+            p:nth-child(2){
+                transform: rotate(-245.5deg) translateY(-840px);
+    
+            }
         }
     }
 }
@@ -575,6 +698,15 @@
                 }
             }
         }
+
+
+        @media screen and (max-width: 768px){
+            .main-middle_center__text{
+                font-size: 38px;
+                line-height: 64px;
+            }
+        }
+
 
         @media screen and (max-width: 596px){
 

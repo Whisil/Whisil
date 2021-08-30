@@ -1,31 +1,31 @@
 @font-face{
     font-family: 'Grtsk-Giga';
-    src: url('FirstLast-test-copy/vendors/Font/GrtskGiga-Bold.ttf');
+    src: url('https://whisil.github.io/FirstLast-test-copy/vendors/Font/GrtskGiga-Bold.ttf');
     font-style: normal;
 }
 @font-face{
     font-family: 'Grtsk-Giga';
-    src: url('FirstLast-test-copy/vendors/Font/GrtskGiga-Semibold.ttf');
+    src: url('https://whisil.github.io/FirstLast-test-copy/vendors/Font/GrtskGiga-Semibold.ttf');
     font-style: normal;
 }
 @font-face{
     font-family: 'Grtsk-Giga';
-    src: url('FirstLast-test-copy/vendors/Font/GrtskGiga-Regular.ttf');
+    src: url('https://whisil.github.io/FirstLast-test-copy/vendors/Font/GrtskGiga-Regular.ttf');
     font-style: normal;
 }
 @font-face{
     font-family: 'Grtsk-Giga';
-    src: url('FirstLast-test-copy/vendors/Font/GrtskGiga-Medium.ttf');
+    src: url('https://whisil.github.io/FirstLast-test-copy/vendors/Font/GrtskGiga-Medium.ttf');
     font-style: normal;
 }
 @font-face{
     font-family: 'Grtsk-Tera';
-    src: url('FirstLast-test-copy/vendors/Font/Grtsk-Tera-Regular.otf');
+    src: url('https://whisil.github.io/FirstLast-test-copy/vendors/Font/Grtsk-Tera-Regular.otf');
     font-style: normal;
 }
 @font-face{
     font-family: 'Grtsk-Peta';
-    src: url('FirstLast-test-copy/vendors/Font/GrtskPeta-Regular.ttf');
+    src: url('https://whisil.github.io/FirstLast-test-copy/vendors/Font/GrtskPeta-Regular.ttf');
     font-style: normal;
 }
 
@@ -58,7 +58,7 @@ body{
     margin: 0;
     max-height: 100vh;
     position: relative;
-    overflow: hidden;
+    
 
 }
 button:active, button:focus {
