@@ -1,31 +1,31 @@
 @font-face{
     font-family: 'Grtsk-Giga';
-    src: url('/vendors/Font/GrtskGiga-Bold.ttf');
+    src: url('./vendors/Font/GrtskGiga-Bold.ttf');
     font-style: normal;
 }
 @font-face{
     font-family: 'Grtsk-Giga';
-    src: url('/vendors/Font/GrtskGiga-Semibold.ttf');
+    src: url('./vendors/Font/GrtskGiga-Semibold.ttf');
     font-style: normal;
 }
 @font-face{
     font-family: 'Grtsk-Giga';
-    src: url('/vendors/Font/GrtskGiga-Regular.ttf');
+    src: url('./vendors/Font/GrtskGiga-Regular.ttf');
     font-style: normal;
 }
 @font-face{
     font-family: 'Grtsk-Giga';
-    src: url('/vendors/Font/GrtskGiga-Medium.ttf');
+    src: url('./vendors/Font/GrtskGiga-Medium.ttf');
     font-style: normal;
 }
 @font-face{
     font-family: 'Grtsk-Tera';
-    src: url('/vendors/Font/Grtsk-Tera-Regular.otf');
+    src: url('./vendors/Font/Grtsk-Tera-Regular.otf');
     font-style: normal;
 }
 @font-face{
     font-family: 'Grtsk-Peta';
-    src: url('/vendors/Font/GrtskPeta-Regular.ttf');
+    src: url('./vendors/Font/GrtskPeta-Regular.ttf');
     font-style: normal;
 }
 
