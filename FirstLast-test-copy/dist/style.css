@@ -262,7 +262,7 @@
 .main .wrapper::before {
   content: '';
   position: absolute;
-  background: url(./vendors/images/Ellipse.png);
+  background: url(FirstLast-test-copy/vendors/images/Ellipse.png);
   background-repeat: no-repeat;
   width: 49%;
   height: 100%;
@@ -400,7 +400,7 @@
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: #000;
-  background-image: url(./vendors/images/black.png);
+  background-image: url(FirstLast-test-copy/vendors/images/black.png);
   background-repeat: no-repeat;
   -webkit-background-clip: text;
   background-position: 0px;
