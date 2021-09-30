@@ -1,7 +1,7 @@
 header {
   padding-top: 18px;
   padding-bottom: 120px;
-  background: url("/vendors/images/header-bg.png");
+  background: url("../vendors/images/header-bg.png");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
           background-size: cover;
@@ -99,17 +99,23 @@ header .header-bottom__info .learn-btn {
   -webkit-border-radius: 8px;
           border-radius: 8px;
   margin-right: 12px;
-  -webkit-transition: background-color .2s ease-in-out, color .2s ease-in-out;
-  -o-transition: background-color .2s ease-in-out, color .2s ease-in-out;
-  transition: background-color .2s ease-in-out, color .2s ease-in-out;
+  -webkit-transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
+  -o-transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
+  transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
 }
 
 header .header-bottom__info .learn-btn:hover {
   background-color: transparent;
   color: #fff;
-  -webkit-transition: background-color .2s ease-in-out, color .2s ease-in-out;
-  -o-transition: background-color .2s ease-in-out, color .2s ease-in-out;
-  transition: background-color .2s ease-in-out, color .2s ease-in-out;
+  -webkit-transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
+  -o-transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
+  transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
 }
 
 header .header-bottom__info .go-to-btn {
@@ -124,17 +130,23 @@ header .header-bottom__info .go-to-btn {
   -webkit-border-radius: 8px;
           border-radius: 8px;
   margin-right: 12px;
-  -webkit-transition: background-color .2s ease-in-out, color .2s ease-in-out;
-  -o-transition: background-color .2s ease-in-out, color .2s ease-in-out;
-  transition: background-color .2s ease-in-out, color .2s ease-in-out;
+  -webkit-transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
+  -o-transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
+  transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
 }
 
 header .header-bottom__info .go-to-btn:hover {
   background-color: #fff;
   color: #1e3c72;
-  -webkit-transition: background-color .2s ease-in-out, color .2s ease-in-out;
-  -o-transition: background-color .2s ease-in-out, color .2s ease-in-out;
-  transition: background-color .2s ease-in-out, color .2s ease-in-out;
+  -webkit-transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
+  -o-transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
+  transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
 }
 
 header .header-bottom .splide {
@@ -166,11 +178,17 @@ header .header-bottom .splide .splide__slide {
       -ms-transform: scale(0.8);
           transform: scale(0.8);
   opacity: 0.5;
-  -webkit-transition: opacity .2s ease-in-out, -webkit-transform .2s ease-in-out;
-  transition: opacity .2s ease-in-out, -webkit-transform .2s ease-in-out;
-  -o-transition: opacity .2s ease-in-out, transform .2s ease-in-out;
-  transition: opacity .2s ease-in-out, transform .2s ease-in-out;
-  transition: opacity .2s ease-in-out, transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out,
+ -webkit-transform .2s ease-in-out;
+  transition: opacity .2s ease-in-out,
+ -webkit-transform .2s ease-in-out;
+  -o-transition: opacity .2s ease-in-out,
+ transform .2s ease-in-out;
+  transition: opacity .2s ease-in-out,
+ transform .2s ease-in-out;
+  transition: opacity .2s ease-in-out,
+ transform .2s ease-in-out,
+ -webkit-transform .2s ease-in-out;
   overflow: hidden !important;
 }
 
@@ -203,11 +221,17 @@ header .header-bottom .splide .is-active {
       -ms-transform: scale(1);
           transform: scale(1);
   opacity: 1;
-  -webkit-transition: opacity .2s ease-in-out, -webkit-transform .2s ease-in-out;
-  transition: opacity .2s ease-in-out, -webkit-transform .2s ease-in-out;
-  -o-transition: opacity .2s ease-in-out, transform .2s ease-in-out;
-  transition: opacity .2s ease-in-out, transform .2s ease-in-out;
-  transition: opacity .2s ease-in-out, transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out,
+ -webkit-transform .2s ease-in-out;
+  transition: opacity .2s ease-in-out,
+ -webkit-transform .2s ease-in-out;
+  -o-transition: opacity .2s ease-in-out,
+ transform .2s ease-in-out;
+  transition: opacity .2s ease-in-out,
+ transform .2s ease-in-out;
+  transition: opacity .2s ease-in-out,
+ transform .2s ease-in-out,
+ -webkit-transform .2s ease-in-out;
 }
 
 header .header-bottom .splide .splide__pagination {
