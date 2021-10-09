@@ -138,6 +138,7 @@
 
 
 .mobile-nav_bottom{
+    display: inline-block;
     position: relative;
     bottom: -50px;
     width: 320px;

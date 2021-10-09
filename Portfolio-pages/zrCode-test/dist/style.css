@@ -320,9 +320,6 @@ header .header-bottom .splide .splide__pagination li .is-active::after {
   header .header-bottom .splide .splide__list {
     overflow-x: visible;
   }
-  header .header-bottom .splide .splide__list .is-active {
-
-  }
   header .header-bottom .splide .splide__slide {
     position: relative;
     
@@ -713,6 +710,43 @@ header .header-bottom .splide .splide__pagination li .is-active::after {
   transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
 }
 
+
+
+/* COIN GALLERY */
+.coin-gallery{
+  display: none;
+}
+
+.coin-gallery .owl-carousel__item{
+  padding: 0 !important;
+  margin: 0 auto;
+}
+
+.coin-gallery .owl-carousel__item .coin-bg-active {
+  position: absolute;
+  z-index: -1;
+  left: 32px !important;
+  -webkit-transform: scale(0);
+      -ms-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: -webkit-transform .2s ease-in-out;
+  transition: -webkit-transform .2s ease-in-out;
+  -o-transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+}
+
+.coin-gallery .owl-carousel__item:hover .coin-bg-active {
+  -webkit-transform: scale(0.80) !important;
+      -ms-transform: scale(0.80) !important;
+          transform: scale(0.80) !important;
+  -webkit-transition: -webkit-transform .2s ease-in-out;
+  transition: -webkit-transform .2s ease-in-out;
+  -o-transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+}
+
 .coin-selection .owl-carousel__item .coin-bg-active {
   position: absolute;
   z-index: -1;
@@ -751,6 +785,15 @@ header .header-bottom .splide .splide__pagination li .is-active::after {
   bottom: 5px;
   right: 10px;
 }
+
+.coin-gallery .owl-carousel__item::after{
+  right: 30px;
+}
+
+.coin-selection .l-coin::before{
+  right: 64px !important;
+}
+
 
 .coin-selection .owl-carousel__item .l-coin::before {
   position: absolute;
@@ -807,37 +850,60 @@ header .header-bottom .splide .splide__pagination li .is-active::after {
 
 @media screen and (max-width: 992px) {
   .coin-selection .owl-container {
-    width: 525px;
+    width: 545px;
   }
   .coin-selection .owl-carousel .owl-stage {
     position: relative;
-    left: -10px;
+    left: 15px;
+  }
+  .coin-selection .owl-carousel .owl-stage .owl-item{
+    left: -5px;
   }
 }
 
 @media screen and (max-width: 600px) {
+  .coin-selection{
+    padding-bottom: 40px;
+  }
+  .coin-gallery{
+    display: grid;
+    grid-template-areas: 'a a a a';
+  }
+  .owl-container{
+    display: none;
+  }
   .coin-selection .owl-container {
-    width: 410px;
+    width: 100%;
+    padding: 0;
   }
   .coin-selection .owl-carousel .owl-nav button:first-child {
     left: -13%;
   }
+
+  .coin-selection .owl-carousel .owl-stage {
+    position: relative;
+    left: -20px;
+  }
+
 }
 
-@media screen and (max-width: 576px) {
-  .coin-selection .owl-container {
-    width: 280px;
+@media screen and (max-width: 475px){
+  .coin-gallery{
+    display: grid;
+    grid-template-areas: 'a a a';
   }
-  .coin-selection .owl-carousel .owl-nav button:first-child {
-    left: -22%;
+  .owl-carousel__item{
+    margin: 0 auto !important;
   }
 }
 
-@media screen and (max-width: 400px) {
-  .coin-selection .owld-carousel .owl-nav {
-    display: none !important;
+@media screen and (max-width: 340px) {
+  .coin-gallery{
+    padding: 0;
   }
 }
+
+
 
 .coin-selection .l-coin::before {
   position: absolute;
@@ -980,7 +1046,7 @@ header .header-bottom .splide .splide__pagination li .is-active::after {
 
 .cost-selection {
   padding-top: 75px;
-  padding-bottom: 15px;
+  padding-bottom: 40px;
   position: relative;
 }
 

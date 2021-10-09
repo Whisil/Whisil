@@ -51,10 +51,18 @@ $(document).ready(function(){
             },
             600:{
                 margin: 20,
-                items: 4
+                items: 4,
+                nav: true,
+            },
+            445:{
+                items: 3,
+                margin: 34,
+                nav:false,
             },
             400:{
-                nav: true,
+                items: 2,
+                
+                nav:false,
             },
             0:{
                 nav:false,
