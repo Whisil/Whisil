@@ -402,7 +402,7 @@ header .container .row .menu .mobile-nav_btn:hover {
   overflow: hidden;
 }
 
-.banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper iframe {
+.banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper video {
   position: absolute;
   top: -400px;
   left: 0;
@@ -467,14 +467,14 @@ header .container .row .menu .mobile-nav_btn:hover {
 
 @media screen and (max-width: 1670px) {
   .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper {
-    padding-top: 70%;
+    height: 100%;
   }
-  .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper iframe {
+  .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper video {
     position: absolute;
-    top: -220px;
+    top: -286px;
     left: 0;
     margin: 0 auto;
-    width: 150%;
+    width: 168%;
     height: 150%;
     border-width: 0;
     outline-width: 0;
@@ -482,15 +482,12 @@ header .container .row .menu .mobile-nav_btn:hover {
 }
 
 @media screen and (max-width: 1320px) {
-  .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper {
-    padding-top: 100%;
-  }
-  .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper iframe {
+  .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper video {
     position: absolute;
-    top: -470px;
+    top: -295px;
     left: 0;
     margin: 0 auto;
-    width: 150%;
+    width: 180%;
     height: 150%;
     border-width: 0;
     outline-width: 0;
@@ -501,11 +498,10 @@ header .container .row .menu .mobile-nav_btn:hover {
   .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper {
     padding-top: 130%;
   }
-  .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper iframe {
-    top: -940px;
+  .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper video {
+    top: -426px;
     left: 0;
-    width: 200%;
-    height: 200%;
+    width: 235%;
   }
 }
 
@@ -513,10 +509,10 @@ header .container .row .menu .mobile-nav_btn:hover {
   .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper {
     padding-top: 120%;
   }
-  .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper iframe {
+  .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper video {
     top: -950px;
     left: 0;
-    width: 270%;
+    width: 275%;
     height: 270%;
   }
 }
@@ -525,24 +521,12 @@ header .container .row .menu .mobile-nav_btn:hover {
   .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper {
     padding-top: 155%;
   }
-  .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper iframe {
-    top: -1350px;
-    left: -50%;
-    width: 320%;
-    height: 320%;
-  }
-}
-
-@media screen and (max-width: 824px) {
-  .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper {
-    padding-top: 155%;
-  }
-  .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper iframe {
+  .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper video {
     position: absolute;
-    top: -1350px;
+    top: -1265px;
     left: -50%;
     margin: 0 auto;
-    width: 320%;
+    width: 360%;
     height: 320%;
     border-width: 0;
     outline-width: 0;
@@ -553,12 +537,12 @@ header .container .row .menu .mobile-nav_btn:hover {
   .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper {
     padding-top: 220%;
   }
-  .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper iframe {
+  .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper video {
     position: absolute;
     top: -2950px;
     left: -50%;
     margin: 0 auto;
-    width: 500%;
+    width: 560%;
     height: 500%;
     border-width: 0;
     outline-width: 0;
@@ -579,14 +563,14 @@ header .container .row .menu .mobile-nav_btn:hover {
     height: 100%;
   }
   .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper {
-    padding-top: 160%;
+    padding-top: 185%;
   }
-  .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper iframe {
+  .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper video {
     position: absolute;
-    top: -1250px;
+    top: -1524px;
     left: -50%;
     margin: 0 auto;
-    width: 400%;
+    width: 550%;
     height: 400%;
     border-width: 0;
     outline-width: 0;
@@ -602,14 +586,14 @@ header .container .row .menu .mobile-nav_btn:hover {
 
 @media screen and (max-width: 450px) {
   .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper {
-    padding-top: 190%;
+    padding-top: 225%;
   }
-  .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper iframe {
+  .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper video {
     position: absolute;
-    top: -1570px;
+    top: -1750px;
     left: -50%;
     margin: 0 auto;
-    width: 510%;
+    width: 710%;
     height: 510%;
     border-width: 0;
     outline-width: 0;
@@ -625,28 +609,152 @@ header .container .row .menu .mobile-nav_btn:hover {
 
 @media screen and (max-width: 360px) {
   .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper {
-    padding-top: 200%;
+    padding-top: 263%;
   }
-  .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper iframe {
+  .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper video {
     position: absolute;
-    top: -1500px;
+    top: -1750px;
     left: -50%;
+  }
+}
+
+@media screen and (max-height: 1368px) and (width: 1024px) {
+  .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper video {
+    top: -1110px;
+  }
+}
+
+@media screen and (max-height: 980px) and (max-width: 445px) {
+  .banner .carousel .carousel-inner .carousel-item .carousel-item__info {
+    top: 34%;
   }
 }
 
 @media screen and (max-height: 780px) {
   .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper {
+    padding-top: 59%;
+  }
+  .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper video {
+    position: absolute;
+    left: -50%;
+    margin: 0 auto;
+    border-width: 0;
+    outline-width: 0;
+  }
+}
+
+@media screen and (max-height: 780px) and (max-width: 1225px) {
+  .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper {
+    padding-top: 130%;
+  }
+  .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper video {
+    top: -426px;
+    left: 0;
+    width: 235%;
+  }
+}
+
+@media screen and (max-height: 780px) and (max-width: 1024px) {
+  .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper {
+    padding-top: 120%;
+  }
+  .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper video {
+    top: -950px;
+    left: 0;
+    width: 275%;
+  }
+}
+
+@media screen and (max-height: 780px) and (max-width: 824px) {
+  .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper {
+    padding-top: 155%;
+  }
+  .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper video {
+    position: absolute;
+    top: -1265px;
+    left: -50%;
+    margin: 0 auto;
+    width: 360%;
+    height: 320%;
+    border-width: 0;
+    outline-width: 0;
+  }
+}
+
+@media screen and (max-height: 780px) and (max-width: 700px) {
+  .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper {
     padding-top: 220%;
   }
-  .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper iframe {
+  .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper video {
     position: absolute;
     top: -2950px;
     left: -50%;
     margin: 0 auto;
-    width: 500%;
+    width: 560%;
     height: 500%;
     border-width: 0;
     outline-width: 0;
+  }
+  .banner .carousel .carousel-inner .carousel-item .carousel-item__info {
+    max-width: 80%;
+    -webkit-transform: translate(11%, -50%);
+        -ms-transform: translate(11%, -50%);
+            transform: translate(11%, -50%);
+  }
+  .banner .carousel .carousel-inner .carousel-item .carousel-item__info h1 {
+    font-size: 55px;
+  }
+}
+
+@media screen and (max-height: 780px) and (max-width: 578px) {
+  .banner .carousel .carousel-inner .carousel-item {
+    height: 100%;
+  }
+  .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper {
+    padding-top: 185%;
+  }
+  .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper video {
+    position: absolute;
+    top: -1524px;
+    left: -50%;
+    margin: 0 auto;
+    width: 550%;
+    height: 400%;
+    border-width: 0;
+    outline-width: 0;
+  }
+  .banner .carousel .carousel-inner .carousel-item .carousel-item__info {
+    top: 37%;
+    max-width: 93%;
+    -webkit-transform: translate(3%, -50%);
+        -ms-transform: translate(3%, -50%);
+            transform: translate(3%, -50%);
+  }
+}
+
+@media screen and (max-height: 780px) and (max-width: 450px) {
+  .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper {
+    padding-top: 225%;
+  }
+  .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper video {
+    position: absolute;
+    top: -1750px;
+    left: -50%;
+    margin: 0 auto;
+    width: 710%;
+    height: 510%;
+    border-width: 0;
+    outline-width: 0;
+  }
+  .banner .carousel .carousel-inner .carousel-item .carousel-item__info h1 {
+    font-size: 40px;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-height: 780px) and (max-width: 360px) {
+  .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper {
+    padding-top: 247%;
   }
 }
 
@@ -746,6 +854,12 @@ header .container .row .menu .mobile-nav_btn:hover {
 @media screen and (max-width: 1024px) {
   .banner .carousel .carousel-control-prev {
     margin-left: 5%;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .banner .carousel .carousel-indicators {
+    margin-bottom: 40px;
   }
 }
 
@@ -1141,7 +1255,7 @@ header .container .row .menu .mobile-nav_btn:hover {
 .contacts .panels {
   background: #fff;
   min-height: 200px;
-  max-width: unset;
+  max-width: 100%;
   -webkit-border-radius: 3px;
           border-radius: 3px;
   overflow: hidden;
@@ -1150,7 +1264,7 @@ header .container .row .menu .mobile-nav_btn:hover {
 .contacts .panels .panel {
   display: none;
   -webkit-animation: fadein .8s;
-          animation: fadein .8s;
+  animation: fadein .8s;
 }
 
 .contacts .panels .panel .panel-info {
@@ -1391,7 +1505,7 @@ header .container .row .menu .mobile-nav_btn:hover {
 }
 
 @media screen and (max-width: 769px) {
-  .contacts .panels .panel iframe {
+  .contacts .panels .panel video {
     max-width: 100%;
   }
   .contacts .panels .panel .panel-info {

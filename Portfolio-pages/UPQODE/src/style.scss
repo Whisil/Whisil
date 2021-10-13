@@ -315,7 +315,7 @@ header{
                     padding-top: 70%;
                     width: 100%;
                     overflow: hidden;
-                    iframe{
+                    video{
                         position: absolute;
                             top: -400px;
                             left: 0;
@@ -372,13 +372,13 @@ header{
                 }
                 @media screen and (max-width: 1670px){
                     .carousel-item__wrapper{
-                        padding-top: 70%;
-                        iframe{
+                        height: 100%;
+                        video{
                             position: absolute;
-                            top: -220px;
+                            top: -286px;
                             left: 0;
                             margin: 0 auto;
-                            width: 150%;
+                            width: 168%;
                             height: 150%;
                             border-width: 0;
                             outline-width: 0;
@@ -388,13 +388,13 @@ header{
                 }
                 @media screen and (max-width: 1320px){
                     .carousel-item__wrapper{
-                        padding-top: 100%;
-                        iframe{
+                        
+                        video{
                             position: absolute;
-                            top: -470px;
+                            top: -295px;
                             left: 0;
                             margin: 0 auto;
-                            width: 150%;
+                            width: 180%;
                             height: 150%;
                             border-width: 0;
                             outline-width: 0;
@@ -405,11 +405,11 @@ header{
                 @media screen and (max-width: 1225px){
                     .carousel-item__wrapper{
                         padding-top: 130%;
-                        iframe{
-                            top: -940px;
+                        video{
+                            top: -426px;
                             left: 0;
-                            width: 200%;
-                            height: 200%;
+                            width: 235%;
+                            
                             
                         }
                     }
@@ -417,37 +417,26 @@ header{
                 @media screen and (max-width: 1024px){
                     .carousel-item__wrapper{
                         padding-top: 120%;
-                        iframe{
+                        video{
                             top: -950px;
                             left: 0;
-                            width: 270%;
+                            width: 275%;
                             height: 270%;
 
                             
                         }
                     }
                 }
+
                 @media screen and (max-width: 824px){
                     .carousel-item__wrapper{
                         padding-top: 155%;
-                        iframe{
-                            top: -1350px;
-                            left: -50%;
-                            width: 320%;
-                            height: 320%;
-                            
-                        }
-                    }
-                }
-                @media screen and (max-width: 824px){
-                    .carousel-item__wrapper{
-                        padding-top: 155%;
-                        iframe{
+                        video{
                             position: absolute;
-                            top: -1350px;
+                            top: -1265px;
                             left: -50%;
                             margin: 0 auto;
-                            width: 320%;
+                            width: 360%;
                             height: 320%;
                             border-width: 0;
                             outline-width: 0;
@@ -458,12 +447,12 @@ header{
                 @media screen and (max-width: 700px){
                     .carousel-item__wrapper{
                         padding-top: 220%;
-                        iframe{
+                        video{
                             position: absolute;
                             top: -2950px;
                             left: -50%;
                             margin: 0 auto;
-                            width: 500%;
+                            width: 560%;
                             height: 500%;
                             border-width: 0;
                             outline-width: 0;
@@ -483,14 +472,14 @@ header{
 
                     
                     .carousel-item__wrapper{
-                        padding-top: 160%;
+                        padding-top: 185%;
                         
-                        iframe{
+                        video{
                             position: absolute;
-                            top: -1250px;
+                            top: -1524px;
                             left: -50%;
                             margin: 0 auto;
-                            width: 400%;
+                            width: 550%;
                             height: 400%;
                             border-width: 0;
                             outline-width: 0;
@@ -505,14 +494,14 @@ header{
                 }
                 @media screen and (max-width: 450px){
                     .carousel-item__wrapper{
-                        padding-top: 190%;
+                        padding-top: 225%;
                         
-                        iframe{
+                        video{
                             position: absolute;
-                            top: -1570px;
+                            top: -1750px;
                             left: -50%;
                             margin: 0 auto;
-                            width: 510%;
+                            width: 710%;
                             height: 510%;
                             border-width: 0;
                             outline-width: 0;
@@ -529,32 +518,174 @@ header{
                 }
                 @media screen and (max-width: 360px){
                     .carousel-item__wrapper{
-                        padding-top: 200%;
+                        padding-top: 263%;
                         
-                        iframe{
+                        video{
                             position: absolute;
-                            top: -1500px;
+                            top: -1750px;
                             left: -50%;
                         }
                     }
                 }
+
+
+
+//  Height media
+                
+                // iPad Pro
+                @media screen and (max-height: 1368px){
+                    @media screen and (width: 1024px){
+                        .carousel-item__wrapper{
+                            video{
+                                top: -1110px;
+                            }
+                        }
+                    }
+                }
+
+                @media screen and (max-height:980px){
+                    @media screen and (max-width: 445px){
+                        .carousel-item__info{
+                            top: 34%;
+                        }
+                    }
+                }
+
+
                 @media screen and (max-height: 780px){
                     .carousel-item__wrapper{
-                        padding-top: 220%;
-                        iframe{
+                        padding-top: 59%;
+                        video{
                             position: absolute;
-                            top: -2950px;
                             left: -50%;
                             margin: 0 auto;
-                            width: 500%;
-                            height: 500%;
                             border-width: 0;
                             outline-width: 0;
                             
                         }
                     }
 
-                    
+                    @media screen and (max-width:1225px){
+                        .carousel-item__wrapper{
+                            padding-top: 130%;
+                            video{
+                                top: -426px;
+                                left: 0;
+                                width: 235%;
+                                
+                                
+                            }
+                        }
+                    }
+
+                    @media screen and (max-width: 1024px){
+
+                        .carousel-item__wrapper{
+                            padding-top: 120%;
+                            video{
+                                top: -950px;
+                                left: 0;
+                                width: 275%;
+                                
+    
+                                
+                            }
+                        }
+                    }
+    
+                    @media screen and (max-width: 824px){
+                        .carousel-item__wrapper{
+                            padding-top: 155%;
+                            video{
+                                position: absolute;
+                                top: -1265px;
+                                left: -50%;
+                                margin: 0 auto;
+                                width: 360%;
+                                height: 320%;
+                                border-width: 0;
+                                outline-width: 0;
+                                
+                            }
+                        }
+                    }
+                    @media screen and (max-width: 700px){
+                        .carousel-item__wrapper{
+                            padding-top: 220%;
+                            video{
+                                position: absolute;
+                                top: -2950px;
+                                left: -50%;
+                                margin: 0 auto;
+                                width: 560%;
+                                height: 500%;
+                                border-width: 0;
+                                outline-width: 0;
+                                
+                            }
+                        }
+                        .carousel-item__info{
+                            max-width: 80%;
+                            transform: translate(11%, -50%);
+                            h1{
+                                font-size: 55px;
+                            }
+                        }
+                    }
+                    @media screen and (max-width: 578px){
+                        height: 100%;
+    
+                        
+                        .carousel-item__wrapper{
+                            padding-top: 185%;
+                            
+                            video{
+                                position: absolute;
+                                top: -1524px;
+                                left: -50%;
+                                margin: 0 auto;
+                                width: 550%;
+                                height: 400%;
+                                border-width: 0;
+                                outline-width: 0;
+                                
+                            }
+                        }
+                        .carousel-item__info{
+                            top: 37%;
+                            max-width: 93%;
+                            transform: translate(3%, -50%);
+                        }
+                    }
+                    @media screen and (max-width: 450px){
+                        .carousel-item__wrapper{
+                            padding-top: 225%;
+                            
+                            video{
+                                position: absolute;
+                                top: -1750px;
+                                left: -50%;
+                                margin: 0 auto;
+                                width: 710%;
+                                height: 510%;
+                                border-width: 0;
+                                outline-width: 0;
+                                
+                            }
+                        }
+                        .carousel-item__info{
+                            
+                            h1{
+                                font-size: 40px;
+                                margin-bottom: 0;
+                            }
+                        }
+                    }
+                    @media screen and (max-width: 360px){
+                        .carousel-item__wrapper{
+                            padding-top: 247%;
+                        }
+                    }
                 }
 
                 
@@ -634,6 +765,12 @@ header{
                 margin-left: 5%;
             }
 
+        }
+        @media screen and (max-width: 1800px){
+            .carousel-indicators{
+                margin-bottom: 40px;
+            }
+            
         }
         @media screen and (max-width: 578px){
             height: 70vh;
@@ -946,13 +1083,14 @@ header{
     .panels{
         background:#fff;
         min-height:200px;
-        max-width: unset;
+        max-width: 100%;
         border-radius:3px;
         overflow:hidden;
 
         .panel{
             display:none;
-            animation: fadein .8s;
+            -webkit-animation: fadein .8s;
+                    animation: fadein .8s;
             
             
     
@@ -1070,6 +1208,15 @@ header{
         }
     }
 
+    @-webkit-keyframes fadein {
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+
     @keyframes fadein {
         from {
             opacity:0;
@@ -1152,7 +1299,7 @@ header{
 
             .panel{
 
-                iframe{
+                video{
                     max-width: 100%;
                 }
                 .panel-info{
