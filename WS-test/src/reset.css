@@ -1,22 +1,22 @@
 @font-face {
     font-family: "BBC Reith Sans Lt";
-    src: url(/vendors/Font/BBCReithSans_W_Lt.woff);
+    src: url(../vendors/Font/BBCReithSans_W_Lt.woff);
 }
 @font-face {
     font-family: "BBC Reith Sans Rg";
-    src: url(/vendors/Font/BBCReithSans_W_Rg.woff);
+    src: url(../vendors/Font/BBCReithSans_W_Rg.woff);
 }
 @font-face {
     font-family: "BBC Reith Sans Md";
-    src: url(/vendors/Font/BBCReithSans_W_Md.woff);
+    src: url(../vendors/Font/BBCReithSans_W_Md.woff);
 }
 @font-face {
     font-family: "BBC Reith Sans Bd";
-    src: url(/vendors/Font/BBCReithSans_W_Bd.woff);
+    src: url(../vendors/Font/BBCReithSans_W_Bd.woff);
 }
 @font-face {
     font-family: "BBC Reith Sans ExBd";
-    src: url(/vendors/Font/BBCReithSans_W_ExBd.woff);
+    src: url(../vendors/Font/BBCReithSans_W_ExBd.woff);
 }
 
 /* reset*/
