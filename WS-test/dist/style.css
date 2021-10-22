@@ -91,9 +91,12 @@ header {
           border-radius: 8px;
   padding: 4px 12px;
   max-height: 40px;
-  -webkit-transition: border .2s ease-in-out, color .2s ease-in-out;
-  -o-transition: border .2s ease-in-out, color .2s ease-in-out;
-  transition: border .2s ease-in-out, color .2s ease-in-out;
+  -webkit-transition: border .2s ease-in-out,
+ color .2s ease-in-out;
+  -o-transition: border .2s ease-in-out,
+ color .2s ease-in-out;
+  transition: border .2s ease-in-out,
+ color .2s ease-in-out;
 }
 
 .menu__list_item .btn-secondary svg {
@@ -117,9 +120,12 @@ header {
           box-shadow: none;
   position: relative;
   color: #2e75ff;
-  -webkit-transition: border .2s ease-in-out, color .2s ease-in-out;
-  -o-transition: border .2s ease-in-out, color .2s ease-in-out;
-  transition: border .2s ease-in-out, color .2s ease-in-out;
+  -webkit-transition: border .2s ease-in-out,
+ color .2s ease-in-out;
+  -o-transition: border .2s ease-in-out,
+ color .2s ease-in-out;
+  transition: border .2s ease-in-out,
+ color .2s ease-in-out;
   top: -2px;
   left: -2px;
 }
@@ -801,7 +807,7 @@ header {
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 615px;
-  background-image: url(/vendors/images/IconHotToCold.png);
+  background-image: url(../vendors/images/IconHotToCold.png);
   background-repeat: no-repeat;
   -webkit-background-size: contain;
           background-size: contain;
