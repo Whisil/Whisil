@@ -207,8 +207,8 @@ header .container .menu__list_item .item__hover_item__info::before {
   top: 0px;
   border-top: 2px solid #ff3e00;
   border-left: 2px solid #ff3e00;
-  -webkit-border-radius: 4px;
-          border-radius: 4px;
+  -webkit-border-radius: 4px 0px 0px 4px;
+          border-radius: 4px 0px 0px 4px;
   -webkit-transform: rotate(-45deg);
       -ms-transform: rotate(-45deg);
           transform: rotate(-45deg);
@@ -242,6 +242,23 @@ header .container .menu__list_item .item__hover_item:hover .item__hover_item__in
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+}
+
+@media screen and (max-width: 464px) {
+  header .container .menu__list_item .item__hover_item__info {
+    font-size: 16px;
+    right: -155px !important;
+    padding-right: 10px;
+  }
+  header .container .menu__list_item .item__hover_item__info::before {
+    width: 18px;
+    height: 18px;
+    top: 0px;
+    left: -8px;
+  }
+  header .container .menu__list_item .item__hover_item .info-fix {
+    right: -165px !important;
+  }
 }
 
 header .container .menu__list_item .delivery__container {
