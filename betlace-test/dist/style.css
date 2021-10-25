@@ -305,17 +305,23 @@ header .container .menu__login button {
   color: #000;
   border: 2px solid #ff3e00;
   background-color: transparent;
-  -webkit-transition: background-color .2s ease-in-out, color .2s ease-in-out;
-  -o-transition: background-color .2s ease-in-out, color .2s ease-in-out;
-  transition: background-color .2s ease-in-out, color .2s ease-in-out;
+  -webkit-transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
+  -o-transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
+  transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
 }
 
 header .container .menu__login button:hover {
   background-color: #ff3e00;
   color: #fff;
-  -webkit-transition: background-color .2s ease-in-out, color .2s ease-in-out;
-  -o-transition: background-color .2s ease-in-out, color .2s ease-in-out;
-  transition: background-color .2s ease-in-out, color .2s ease-in-out;
+  -webkit-transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
+  -o-transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
+  transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
 }
 
 @media screen and (max-width: 464px) {
@@ -380,17 +386,23 @@ header .container .menu__login button:hover {
   padding-top: 15px;
   padding-bottom: 15px;
   background-color: transparent;
-  -webkit-transition: background-color .2s ease-in-out, color .2s ease-in-out;
-  -o-transition: background-color .2s ease-in-out, color .2s ease-in-out;
-  transition: background-color .2s ease-in-out, color .2s ease-in-out;
+  -webkit-transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
+  -o-transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
+  transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
 }
 
 .banner .container .banner__info button:hover {
   background-color: #ff3e00;
   color: #fff;
-  -webkit-transition: background-color .2s ease-in-out, color .2s ease-in-out;
-  -o-transition: background-color .2s ease-in-out, color .2s ease-in-out;
-  transition: background-color .2s ease-in-out, color .2s ease-in-out;
+  -webkit-transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
+  -o-transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
+  transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
 }
 
 .banner .container .banner__image {
@@ -398,7 +410,7 @@ header .container .menu__login button:hover {
 }
 
 .banner .container .banner__image_info {
-  background-image: url("/vendors/images/Death-To-Stock-Twitter-Profile.jpg");
+  background-image: url("../vendors/images/Death-To-Stock-Twitter-Profile.jpg");
   -webkit-background-size: contain;
           background-size: contain;
   background-repeat: no-repeat;
