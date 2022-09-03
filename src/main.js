@@ -1,5 +1,3 @@
-
-
 window.addEventListener('scroll', function(){
     const portfolio = document.querySelectorAll('.portfolio-sign__letter')
     
@@ -9,26 +7,15 @@ window.addEventListener('scroll', function(){
         }
     }
     
-
-
     const upBtn = document.querySelector('.up-btn');
 
-    function showBtn (){
-        upBtn.style.opacity = '1';   
-    }
-    function hideBtn (){
-        upBtn.style.display = 'none';
-    }
-
-
     if(pageYOffset > 800){
-        upBtn.style.display = 'block';
-        setTimeout(showBtn, 200);
+        upBtn.style.opacity = '1';
+        upBtn.style.pointerEvents = 'all';
     } else if(pageYOffset < 790){
-        upBtn.style.opacity = '0'; 
-        setTimeout(hideBtn, 220);
+        upBtn.style.opacity = '0';
+        upBtn.style.pointerEvents = 'none';
     }
-
 
 });
 

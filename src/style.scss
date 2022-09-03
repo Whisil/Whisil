@@ -41,7 +41,6 @@ body{
 }
 .up-btn{
     position: fixed;
-    display: none;
     right: 0;
     bottom: 0;
     background-color: $cDark;
@@ -52,6 +51,7 @@ body{
     margin-right: 25px;
     margin-bottom: 30px;
     opacity: 0;
+    pointer-events: none;
     transition: color .2s ease-in,
                 background-color .2s ease-in,
                 opacity .2s ease-in;
@@ -196,7 +196,7 @@ body{
             font-size: 24px;
             transition: transform .2s ease-in;
         }
-        &:hover i{
+        a:hover i{
             transform: translateY(5px);
             transition: transform .2s ease-in;
         }
