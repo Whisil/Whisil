@@ -280,7 +280,6 @@ body{
     }
     .skills{
         margin: 0 auto;
-        justify-content: space-between;
         .skills__item{
             margin-bottom: 80px;
             padding: 0;
@@ -338,11 +337,19 @@ body{
                     height: 100%;
                     
                 }
+                @media screen and (max-width: 576px){
+                    margin-bottom: 20px;
+                }
             }
             &_bottom{
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
+
+                @media screen and (max-width: 576px){
+                    flex-direction: column-reverse;
+                    gap: 20px;
+                }
             }
             &_link{
                 
