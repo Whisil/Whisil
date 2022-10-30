@@ -41,16 +41,16 @@ body{
 }
 .up-btn{
     position: fixed;
-    right: 0;
-    bottom: 0;
+    right: 25px;
+    bottom: 100px;
     background-color: $cDark;
     border-radius: 100%;
     color: rgba(130, 130, 130, 1);
     font-size: 25px;
     padding: 10px 18px;
-    margin-right: 25px;
-    margin-bottom: 30px;
     opacity: 0;
+    height: 57.5px;
+    width: 57.5px;
     pointer-events: none;
     transition: color .2s ease-in,
                 background-color .2s ease-in,
@@ -62,6 +62,69 @@ body{
         color: $cDark;
         transition: color .2s ease-in,
                     background-color .2s ease-in;
+    }
+}
+
+.resume-btn{
+    position: fixed;
+    background-color: $cDark;
+    border-radius: 100%;
+    color: rgba(130, 130, 130, 1);
+    padding: 10px 18px;
+    opacity: 1;
+    bottom: 25px;
+    right: 25px;
+    pointer-events: all;
+    display: flex;
+    align-items: center;
+    height: 57.5px;
+    width: 57.5px;
+    transition: background-color .2s ease-in,
+                opacity .2s ease-in;
+    cursor: pointer;
+    z-index: 10;
+
+    a{
+        display: flex;
+    }
+
+    svg{
+        height: 25px;
+        width: fit-content;
+        path{
+            transition: fill .2s ease-in;
+        }
+    }
+
+    &::before{
+        content: "Resume";
+        display: block;
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
+        font-size: 16px;
+        font-weight: bold;
+        background-color: $cDark;
+        border-radius: 8px;
+        padding: 5px;
+        width: 80px;
+        text-align: center;
+        right: 70px;
+        transition: opacity .2s ease-in;
+    }
+
+    &:hover{
+        background-color: rgb(184, 180, 180);
+        svg{
+            path{
+                fill: $cDark;
+            }
+        }
+
+        &::before{
+            visibility: visible;
+            opacity: 1;
+        }
     }
 }
 
