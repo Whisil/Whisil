@@ -70,7 +70,6 @@ body{
     background-color: $cDark;
     border-radius: 100%;
     color: rgba(130, 130, 130, 1);
-    padding: 10px 18px;
     opacity: 1;
     bottom: 25px;
     right: 25px;
@@ -86,6 +85,9 @@ body{
 
     a{
         display: flex;
+        align-items: center;
+        padding: 10px 18px;
+        height: 100%;
     }
 
     svg{
